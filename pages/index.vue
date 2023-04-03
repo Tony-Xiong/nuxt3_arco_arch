@@ -1,7 +1,7 @@
 <template>
   <p>index</p>
 </template>
-<script setup>
+<script setup lang="ts">
 definePageMeta({
   title: "主页",
   description: "Home page",

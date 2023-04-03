@@ -4,6 +4,11 @@ export default defineNuxtConfig({
     modules: [
         '@vueuse/nuxt',
         'nuxt-windicss',
-        '@pinia/nuxt'
+        '@pinia/nuxt',
+        '@sidebase/nuxt-auth'
     ],
+    auth: {
+        origin: process.env.ORIGIN,
+        enableGlobalAppMiddleware: true
+    }
 })

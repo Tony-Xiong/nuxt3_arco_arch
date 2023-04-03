@@ -11,10 +11,14 @@
     "@arco-design/web-vue": "^2.43.2",
     "@vueuse/nuxt": "^9.13.0",
     "nuxt": "^3.2.3",
-    "nuxt-windicss": "^2.6.0"
+    "nuxt-windicss": "^2.6.0",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
+    "@sidebase/nuxt-auth": "^0.4.3"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
-    "@vueuse/core": "^9.13.0"
+    "@vueuse/core": "^9.13.0",
+    "next-auth": "^4.18.8"
   }
 }
